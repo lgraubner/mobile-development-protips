@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
