@@ -1,6 +1,3 @@
-mobile-css-boilerplate
-======================
-
 # Mobile CSS Boilerplate #
 
 Base of any mobile layout/styling is the _viewport_ meta-tag.
