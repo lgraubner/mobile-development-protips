@@ -4,12 +4,17 @@
 }
 
 #wrapper {
-  width: 100%;
-  overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 }
 
-input,
-textarea{
-  -webkit-appearance: none;
-  border-radius: 0;
+/* reset safari input styles */
+input, textarea {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+/* keep browser specific checkbox styles */ 
+input[type="checkbox"] {
+	-webkit-appearance: checkbox;
 }
