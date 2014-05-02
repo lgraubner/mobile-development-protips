@@ -20,8 +20,7 @@ Additional parameters can control the zooming.
 ```
 
 Source:
-- 
-https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 
 ### Telephone Number detection
 
