@@ -20,7 +20,8 @@ Additional parameters can control the zooming.
 ```
 
 Source:
--https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+- 
+https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 
 ### Telephone Number detection
 
@@ -42,6 +43,7 @@ Source:
 ### Calendar file support
 #### .ics Support by OS/Browser ####
 		|iOS	|Android
+---		|---	|---
 Safari	|yes	|-
 Chrome	|no		|no
 Opera	|no		|not tested
