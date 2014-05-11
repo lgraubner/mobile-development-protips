@@ -61,7 +61,7 @@ body, html {
 }
 
 #bg {
-	background-image: url('path/to/img.jpg);
+	background-image: url('path/to/img.jpg');
 	background-attachment: scroll;
 	background-position: center top;
 	background-repeat: no-repeat;
