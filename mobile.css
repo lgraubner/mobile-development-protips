@@ -1,20 +1,33 @@
-* {
-	box-sizing: border-box;
-	max-width: 100%;
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#wrapper {
-	width: 100%;
-	overflow: hidden;
+html {
+	/* disable font size adjustments */
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	/* disable tap color */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
 }
 
 /* reset safari input styles */
-input, textarea {
-	-webkit-appearance: none;
-	border-radius: 0;
+input, textarea, button {
+	-moz-appearance: none;
+    -webkit-appearance: none;
+	appearance: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+    border-radius: 0;
 }
 
-/* keep browser specific checkbox styles */ 
+/* keep browser specific checkbox styles */
 input[type="checkbox"] {
-	-webkit-appearance: checkbox;
+    -webkit-appearance: checkbox;
 }
