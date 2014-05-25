@@ -86,13 +86,13 @@ This adds ongoing scrolling to elements on the page, as the page itself does. On
 ```CSS
 .element {
 	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;	
+	-webkit-overflow-scrolling: touch;
 }
 ```
 
-### `box-sizing: border-box` bug in Google Maps API ###
+### `box-sizing: border-box` bugs in third party plugins ###
 
-Some scripts like Google Maps API don't like `box-sizing: border-box` and cause them to not display properly. Therefore the elements have to be resetted:
+Some scripts like Google Maps API or lightbox don't work correctly with `box-sizing: border-box` and cause them to not display properly. Therefore the elements have to be resetted:
 
 ```CSS
 .element {
