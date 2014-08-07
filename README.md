@@ -99,3 +99,7 @@ Some scripts like Google Maps API or lightbox don't work correctly with `box-siz
 	box-sizing: content-box;
 }
 ```
+
+### Different behaviour of date input field ###
+
+iOS Updates the value immediately if any date part is changed. Android lets you set the whole date. Also the iOS date input triggers a blur event, Android doesn't.
