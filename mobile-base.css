@@ -5,11 +5,11 @@
 }
 
 html {
-	/* disable font size adjustments */
-	-ms-text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	/* disable tap color */
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    /* disable font size adjustments */
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    /* disable tap color */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .container {
@@ -19,11 +19,11 @@ html {
 
 /* reset safari input styles */
 input, textarea, button {
-	-moz-appearance: none;
+    -moz-appearance: none;
     -webkit-appearance: none;
-	appearance: none;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
+    appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
 }
 
