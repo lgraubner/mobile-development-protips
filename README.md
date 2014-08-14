@@ -103,3 +103,7 @@ Some scripts like Google Maps API or lightbox don't work correctly with `box-siz
 ### Different behaviour of date input field ###
 
 iOS Updates the value immediately if any date part is changed. Android lets you set the whole date. Also the iOS date input triggers a blur event, Android doesn't.
+
+### using translate ###
+
+The ```translate3d``` method uses GPU acceleration if available in the used browser, the simple 2d methods like ```translateX``` don't.
