@@ -3,20 +3,20 @@
 ## Table of contents
 
 1. [HTML](#html)
-    1.1 [Meta Tags](#meta)
-        1.1.1 [Viewport](#meta-viewport)
-        1.1.2 [Phone Number Detection](#meta-phone-number-detection)
-    1.2 [Input fields](#input)
-        1.2.1 [Date](#input-date)
-        1.2.2 [Auto Zoom](#input-zoom)
+    1. [Meta Tags](#meta)
+        1. [Viewport](#meta-viewport)
+        2. [Phone Number Detection](#meta-phone-number-detection)
+    2. [Input fields](#input)
+        1. [Date](#input-date)
+        2. [Auto Zoom](#input-zoom)
 2. [CSS](#css)
-    2.1 [`background-attachement: fixed`](#background-fixed)
-    2.2 [Momentum Scrolling on elements](#momentum-scrolling)
-    2.3 [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
-    2.4 [Translate Hardware Acceleration](#translate)
+    1. [`background-attachement: fixed`](#background-fixed)
+    2. [Momentum Scrolling on elements](#momentum-scrolling)
+    3. [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
+    4. [Translate Hardware Acceleration](#translate)
 3. [Javascript](#js)
 4. [Miscellaneous](#misc)
-    4.1 [ICS](#ics)
+    1. [ICS](#ics)
 
 ## <a name="html"></a>1. HTML
 
