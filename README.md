@@ -107,3 +107,7 @@ iOS Updates the value immediately if any date part is changed. Android lets you 
 ### using translate ###
 
 The ```translate3d``` method uses GPU acceleration if available in the used browser, the simple 2d methods like ```translateX``` don't.
+
+### Disable zoom on input focus ###
+
+Setting the font-size to 16px on input fields disabled the Safari auto zoom.
