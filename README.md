@@ -14,6 +14,9 @@
     2. [Momentum Scrolling on elements](#momentum-scrolling)
     3. [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
     4. [Translate Hardware Acceleration](#translate)
+	5. [Reset browser specific input/button styles](#input-styles)
+	6. [Disable text size adjustment](#text-adjust)
+	7. [Set tap highlight colour](#tap-color)
 3. [Javascript](#js)
 4. [Miscellaneous](#misc)
     1. [ICS](#ics)
@@ -125,6 +128,38 @@ Some scripts like Google Maps API or lightbox don't work correctly with `box-siz
 ### <a name="translate"></a>2.4 Translate Hardware Acceleration
 
 The ```translate3d``` method uses GPU acceleration if available in the used browser, the simple 2d methods like ```translateX``` don't.
+
+### <a name="input-styles"></a>2.5 Reset browser specific input/button styles
+
+```CSS
+input, textarea, button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+```
+
+### <a name="text-adjust"></a>2.6 Disable text size adjustment
+
+Disable text size adjustment in IE mobile and webkit-browsers
+
+```CSS
+html {
+	-ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+```
+
+### <a name="tap-highlight"></a>2.7 Set tap highlight colour
+
+```CSS
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+```
 
 ## <a name="js"></a>3. Javascript
 
