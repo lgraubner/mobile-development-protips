@@ -3,20 +3,20 @@
 ## Table of contents
 
 1. [HTML](#html)
-  1.1 [Meta Tags](#meta)
-    1.1.1 [Viewport](#meta-viewport)
-    1.1.2 [Phone Number Detection](#meta-phone-number-detection)
-  1.2 [Input fields](#input)
-    1.2.1 [Date](#input-date)
-	1.2.2 [Auto Zoom](#input-zoom)
+    1.1 [Meta Tags](#meta)
+        1.1.1 [Viewport](#meta-viewport)
+        1.1.2 [Phone Number Detection](#meta-phone-number-detection)
+    1.2 [Input fields](#input)
+        1.2.1 [Date](#input-date)
+        1.2.2 [Auto Zoom](#input-zoom)
 2. [CSS](#css)
-  2.1 [`background-attachement: fixed`](#background-fixed)
-  2.2. [Momentum Scrolling on elements](#momentum-scrolling)
-  2.3 [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
-  2.4. [Translate Hardware Acceleration](#translate)
+    2.1 [`background-attachement: fixed`](#background-fixed)
+    2.2 [Momentum Scrolling on elements](#momentum-scrolling)
+    2.3 [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
+    2.4 [Translate Hardware Acceleration](#translate)
 3. [Javascript](#js)
 4. [Miscellaneous](#misc)
-  4.1 [ICS](#ics)
+    4.1 [ICS](#ics)
 
 ## <a name="html"></a>1. HTML
 
@@ -65,7 +65,7 @@ Source:
 
 #### <a name="input-date"></a>1.2.1 Date
 
-iOS Updates the value immediately if any date part is changed. Android lets you set the whole date. Also the iOS date input triggers a blur event, Android doesn't.
+iOS updates the value immediately if any date part is changed. Android lets you set the whole date. Also the iOS date input triggers a blur event, Android doesn't.
 
 #### <a name="input-zoom"></a>1.2.2 Auto Zoom
 
@@ -75,7 +75,7 @@ Setting the `font-size` to 16px on input fields disables the auto zoom in Safari
 
 ### <a name="background-fixed"></a>2.1 `background-attachement: fixed`
 
-Put the CSS background-declarations to a wrapping `<div>` instead of `<html>` or `<body>`. Set this to `min-height: 100%` and it should work.
+Put the CSS background-declarations into a wrapping `<div>` instead of `<html>` or `<body>`. Set this to `min-height: 100%` and it should work.
 
 ```CSS
 body, html {
@@ -122,7 +122,7 @@ Some scripts like Google Maps API or lightbox don't work correctly with `box-siz
 }
 ```
 
-### <a name="translate"></a<2.4 Translate Hardware Acceleration
+### <a name="translate"></a>2.4 Translate Hardware Acceleration
 
 The ```translate3d``` method uses GPU acceleration if available in the used browser, the simple 2d methods like ```translateX``` don't.
 
