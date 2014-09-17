@@ -17,6 +17,7 @@
 	5. [Reset browser specific input/button styles](#input-styles)
 	6. [Disable text size adjustment](#text-adjust)
 	7. [Disable tap highlight colour](#tap-color)
+    8. [Set `overflow: hidden` on body](#overflow-hidden)
 3. [Javascript](#js)
     1. [Disable Google Maps dragging on mobile](#maps-dragging)
 4. [Miscellaneous](#misc)
@@ -159,6 +160,17 @@ html {
 ```CSS
 html {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+```
+
+### <a name="overflow-hidden"></a>2.8 Set `overflow: hidden` on body
+
+A simple `overflow: hidden` is not working on mobile browsers. To achieve that effect you have to set the position of the body to fixed.
+
+```CSS
+body {
+    overflow: hidden;
+    position: fixed;
 }
 ```
 
