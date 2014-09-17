@@ -4,19 +4,19 @@
 
 1. [HTML](#html)
     1. [Meta Tags](#meta)
-        1. [Viewport](#meta-viewport)
-        2. [Phone Number Detection](#meta-phone-number-detection)
+        1. [Viewport examples](#meta-viewport)
+        2. [Disable phone number detection](#meta-phone-number-detection)
     2. [Input fields](#input)
-        1. [Date](#input-date)
-        2. [Auto Zoom](#input-zoom)
+        1. [Different date input behaviour](#input-date)
+        2. [Disable auto zoom on focus](#input-zoom)
 2. [CSS](#css)
     1. [`background-attachement: fixed`](#background-fixed)
-    2. [Momentum Scrolling on elements](#momentum-scrolling)
+    2. [Momentum scrolling on elements](#momentum-scrolling)
     3. [Fix Google Maps, Lightbox etc. when using `box-sizing: border-box`](#border-box)
-    4. [Translate Hardware Acceleration](#translate)
+    4. [Using hardware acceleration with translate](#translate)
 	5. [Reset browser specific input/button styles](#input-styles)
 	6. [Disable text size adjustment](#text-adjust)
-	7. [Set tap highlight colour](#tap-color)
+	7. [Disable tap highlight colour](#tap-color)
 3. [Javascript](#js)
     1. [Disable Google Maps dragging on mobile](#maps-dragging)
 4. [Miscellaneous](#misc)
@@ -48,7 +48,7 @@ Additional parameters:
 Source:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 
-#### <a name="meta-phone-number-detection"></a>1.1.2 Phone Number Detection
+#### <a name="meta-phone-number-detection"></a>1.1.2 Disable phone number detection
 
 To disable the automatic telephone number detection use the following snippet in `<head>` area:
 
@@ -67,11 +67,11 @@ Source:
 
 ### <a name="input"></a>1.2 Input Fields
 
-#### <a name="input-date"></a>1.2.1 Date
+#### <a name="input-date"></a>1.2.1 Different date input behaviour
 
 iOS updates the value immediately if any date part is changed. Android lets you set the whole date. Also the iOS date input triggers a blur event, Android doesn't.
 
-#### <a name="input-zoom"></a>1.2.2 Auto Zoom
+#### <a name="input-zoom"></a>1.2.2 Disable auto zoom on focus
 
 Setting the `font-size` to 16px on input fields disables the auto zoom in Safari and Chrome.
 
@@ -105,7 +105,7 @@ body, html {
 Source:
 - [http://catch404.net/2012/12/fixed-backgrounds-on-the-bad-that-is-all-mobile-browsers/](http://catch404.net/2012/12/fixed-backgrounds-on-the-bad-that-is-all-mobile-browsers/)
 
-### <a name="momentum-scrolling"></a>2.2 Momentum Scrolling
+### <a name="momentum-scrolling"></a>2.2 Momentum scrolling
 
 This adds ongoing scrolling to elements on the page, as the page itself does. Only works in iOS Safari.
 
@@ -126,7 +126,7 @@ Some scripts like Google Maps API or lightbox don't work correctly with `box-siz
 }
 ```
 
-### <a name="translate"></a>2.4 Translate Hardware Acceleration
+### <a name="translate"></a>2.4 Using hardware acceleration with translate
 
 The ```translate3d``` method uses GPU acceleration if available in the used browser, the simple 2d methods like ```translateX``` don't.
 
@@ -154,7 +154,7 @@ html {
 }
 ```
 
-### <a name="tap-highlight"></a>2.7 Set tap highlight colour
+### <a name="tap-highlight"></a>2.7 Disable tap highlight colour
 
 ```CSS
 html {
