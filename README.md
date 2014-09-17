@@ -18,6 +18,7 @@
 	6. [Disable text size adjustment](#text-adjust)
 	7. [Set tap highlight colour](#tap-color)
 3. [Javascript](#js)
+    1. [Disable Google Maps dragging on mobile](#maps-dragging)
 4. [Miscellaneous](#misc)
     1. [ICS](#ics)
 
@@ -162,6 +163,24 @@ html {
 ```
 
 ## <a name="js"></a>3. Javascript
+
+### <a name="maps-dragging"></a>3.1 Disable Google Maps dragging on mobile
+
+Disable dragging on Google Maps to enhance usability while scrolling on mobile phones.
+
+```Javascript
+function initMap() {
+    var isDraggable = $(document).width() > 480 ? true : false;
+    var mapOptions = {
+        draggable: isDraggable,
+
+        ...
+    }
+}
+```
+
+Source:
+- [https://coderwall.com/p/pgm8xa](https://coderwall.com/p/pgm8xa)
 
 ## <a name="misc"></a>4. Miscellaneous
 
