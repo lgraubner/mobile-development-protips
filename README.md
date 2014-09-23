@@ -146,12 +146,12 @@ input, textarea, button {
 
 ### <a name="text-adjust"></a>2.6 Disable text size adjustment
 
-Disable text size adjustment in IE mobile and webkit-browsers
+Disable text size adjustment in IE mobile and webkit-browsers. Do not use `none`, this causes bugs in webkit-Browsers!
 
 ```CSS
 html {
-	-ms-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
+	-ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 ```
 
