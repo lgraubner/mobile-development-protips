@@ -4,11 +4,11 @@
 
 1. [Use `viewport` meta tag](#use-viewport-meta-tag)
 2. [Manually set `tel:` links](#manually-set-tel-links)
-3. [Deviant input `type="date"` behaviour](#deviant-input-type-date-behaviour)
+3. [Deviant input `type="date"` behaviour](#deviant-input-typedate-behaviour)
 4. [Disable zoom on `input`-element focus](#disable-zoom-on-input-element-focus)
 5. [Usage of `background-attachement: fixed`](#usage-of-background-attachement-fixed)
 6. [Enable momentum scrolling on elements](#enable-momentum-scrolling-on-elements)
-7. [Reset browser specific input/button styles](#reset-browser-specific-input-button-styles)
+7. [Reset browser specific input/button styles](#reset-browser-specific-inputbutton-styles)
 8. [Disable text size adjustment](#disable-text-size-adjustment)
 9. [Disable tap highlight colour](#disable-tap-highlight-colour)
 10. [Set `overflow: hidden` on body](#set-overflow-hidden-on-body)
