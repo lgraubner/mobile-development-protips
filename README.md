@@ -1,6 +1,6 @@
 # Mobile Development Protips
 
-## Table of contents
+A collection of useful mobile development tips.
 
 1. [Use `viewport` meta tag](#use-viewport-meta-tag)
 2. [Manually set `tel:` links](#manually-set-tel-links)
