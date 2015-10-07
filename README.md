@@ -7,11 +7,11 @@ A collection of useful mobile development tips.
 3. [Deviant input `type="date"` behaviour](#deviant-input-typedate-behaviour)
 4. [Disable zoom on `input`-element focus](#disable-zoom-on-input-element-focus)
 5. [Usage of `background-attachement: fixed`](#usage-of-background-attachement-fixed)
-6. [Enable momentum scrolling on elements](#enable-momentum-scrolling-on-elements)
+6. [Enabling momentum scrolling on elements](#enabling-momentum-scrolling-on-elements)
 7. [Reset browser specific input/button styles](#reset-browser-specific-inputbutton-styles)
 8. [Disable text size adjustment](#disable-text-size-adjustment)
 9. [Disable tap highlight colour](#disable-tap-highlight-colour)
-10. [Set `overflow: hidden` on body](#set-overflow-hidden-on-body)
+10. [Usage of `overflow: hidden` on body](#usage-of-overflow-hidden-on-body)
 
 
 ### Use `viewport` meta tag
@@ -88,7 +88,7 @@ body, html {
 
 **Source**: [http://catch404.net/2012/12/fixed-backgrounds-on-the-bad-that-is-all-mobile-browsers/](http://catch404.net/2012/12/fixed-backgrounds-on-the-bad-that-is-all-mobile-browsers/)
 
-### Enable momentum scrolling on elements
+### Enabling momentum scrolling on elements
 
 This adds ongoing scrolling to elements on the page, as the page itself does. Only works in iOS Safari.
 
@@ -133,7 +133,7 @@ html {
 }
 ```
 
-### Set `overflow: hidden` on body
+### Usage of `overflow: hidden` on body
 
 A simple `overflow: hidden` is not working on mobile browsers. To achieve that effect you have to set the position of the body to fixed.
 
