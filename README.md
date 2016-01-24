@@ -12,6 +12,7 @@ A collection of useful mobile development tips.
 8. [Disable text size adjustment](#disable-text-size-adjustment)
 9. [Disable tap highlight colour](#disable-tap-highlight-colour)
 10. [Usage of `overflow: hidden` on body](#usage-of-overflow-hidden-on-body)
+11. [Disable dragging of Google maps](#disable-dragging-of-google-maps)
 
 
 ### Use `viewport` meta tag
@@ -103,9 +104,7 @@ This adds ongoing scrolling to elements on the page, as the page itself does. On
 
 ```CSS
 input, textarea, button {
-    -moz-appearance: none;
     -webkit-appearance: none;
-    appearance: none;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -129,7 +128,6 @@ html {
 ```CSS
 html {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
 }
 ```
 
@@ -142,4 +140,16 @@ body {
     overflow: hidden;
     position: fixed;
 }
+```
+
+### Disable dragging of Google maps
+
+The default Google maps options allow users to drag the map around. If a map on a mobile version of your site is full width it might be difficult to scroll further as you have to drag the site up, but the map part has to be avoided. Therefore the best thing is to disable dragging on mobile devices.
+
+```JavaScript
+
+var map new google.maps.Map("#map", {
+  ...
+  draggable: ($(window).width() < 768 ? false : true)
+});
 ```
