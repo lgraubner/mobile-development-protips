@@ -142,7 +142,7 @@ body {
 }
 ```
 
-### Disable dragging of Google maps *deprecated*
+### *deprecated*: Disable dragging of Google maps
 
 The default Google maps options allow users to drag the map around. If a map on a mobile version of your site is full width it might be difficult to scroll further as you have to drag the site up, but the map part has to be avoided. Therefore the best thing is to disable dragging on mobile devices.
 
